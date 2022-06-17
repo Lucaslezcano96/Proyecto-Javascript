@@ -1,0 +1,28 @@
+[
+{
+    "id":1,
+    "Empresa":"Azukita",
+    "Zona":"Villa Devoto",
+    "telefono":"4489-6655"
+},
+{
+    "id":2,
+    "Empresa":"Azukita",
+    "Zona":"Villa Pueyrredon",
+    "telefono":"4568-2896"
+},
+{
+    "id":3,
+    "Empresa":"Azukita",
+    "Zona":"Floresta",
+    "telefono":"4566-2269"
+},
+{
+    "id":4,
+    "Empresa":"Azukita",
+    "Zona":"Versailles",
+    "telefono":"4575-2235"
+}
+
+
+]

@@ -1,0 +1,74 @@
+.SectionJean{
+    background-color: black;
+    margin-top: 0.5rem;
+}
+
+
+ul{
+    align-items: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 600px;
+}
+
+.carousel-inner{
+ height: 50%;
+}
+
+section{
+    color: white;
+}
+
+
+
+
+form {
+    margin-top: 1px;
+    color: white;
+    background-color:black;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.tarjeta{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem;
+    border: solid 2px white;
+    text-align: center;
+}
+
+.tarjeta img{
+    height: 300px;
+    width: 300px;
+}
+
+.SectionLista{
+    background-color: black;
+    border: solid 2px white;
+}
+
+section .SectionListaCarrito{
+    color: black;
+
+}
+
+.contacto{
+    background-color: black;
+    text-align: center;
+}
+
+#contenido{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+

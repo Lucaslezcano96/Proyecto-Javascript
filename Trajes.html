@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Trajes</title>
+</head>
+<body>
+    <ul class="nav nav-pills bg-black p-3">
+        <li class="nav-item text-center">
+          <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="productos.html" role="button" aria-expanded="false">productos</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Trajes.html">Trajes</a></li>
+            <li><a class="dropdown-item" href="productos.html">Jeans</a></li>
+            <li><a class="dropdown-item" href="Camperas.html">Camperas</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="prueba.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Carrito.html">Carrito de compras</a>
+        </li>
+      </ul>
+
+
+      <section class="SectionJean">
+        <div id="contenedor">
+              <div class="tarjeta" id="esta">
+                  <img src="imagenes/traje1.jpg" alt="FotoJean">
+                  <h2>Traje El chaque</h2>
+                  <p>$8.000</p>
+                  <button id="trajechaque" class="btn-primary">Comprar</button>
+              </div>
+    
+              <div class="tarjeta">
+                <img src="imagenes/Traje2.jpg" alt="FotoJean">
+                <h2>Traje Doble botón</h2>
+                <p>$8.500</p>
+                <button id="dobleboton" class="btn-primary">Comprar</button>
+            </div>
+    
+            <div class="tarjeta">
+                <img src="imagenes/traje3.jpg" alt="FotoJean">
+                <h2>Traje "Frac"</h2>
+                <p>$12.000</p>
+                <button id="trajefrac" class="btn-primary">Comprar</button>
+            </div>
+    
+            <div class="tarjeta">
+                <img src="imagenes/Traje4.jpg" alt="FotoJean">
+                <h2>Traje Cuello Mao</h2>
+                <p> $14.000</p>
+                <button id="cuellomao" class="btn-primary">Comprar</button>
+            </div>
+    
+            <div class="tarjeta">
+                <img src="imagenes/Traje5esmoquin.jpg" alt="FotoJean">
+                <h2>Traje Esmoquin</h2>
+                <p>$16.000</p>
+                <button id="esmoquin" class="btn-primary">Comprar</button>
+            </div>
+
+            <div class="tarjeta">
+                <img src="imagenes/Traje6.jpg" alt="FotoJean">
+                <h2>Traje ejecutivo</h2>
+                <p>$25.000</p>
+                <button id="ejecutivo" class="btn-primary">Comprar</button>
+            </div>
+
+            <div class="tarjeta">
+              <img src="imagenes/JeanSkinny.jpg" alt="FotoJean">
+              <h2>Jean skinny</h2>
+              <p>$2500</p>
+              <button id="skinny" class="btn-primary">Comprar</button>
+          </div>
+
+          <div class="tarjeta">
+            <img src="imagenes/jeanmom.jpg" alt="FotoJean">
+            <h2>Jean slim fit</h2>
+            <p>$4000</p>
+            <button id="slimfit" class="btn-primary">Comprar</button>
+        </div>
+
+        <div class="tarjeta">
+            <img src="imagenes/Jean3.jpg" alt="FotoJean">
+            <h2>Jean Bootcut</h2>
+            <p>$3000</p>
+            <button id="bootcut" class="btn-primary">Comprar</button>
+        </div>
+
+        <div class="tarjeta">
+            <img src="imagenes/Jean4.jpg" alt="FotoJean">
+            <h2>Jean Straight</h2>
+            <p>$2800</p>
+            <button id="straight" class="btn-primary">Comprar</button>
+        </div>
+
+        <div class="tarjeta">
+            <img src="imagenes/Jean5.jpg" alt="FotoJean">
+            <h2>Jean MOM</h2>
+            <p>$5000</p>
+            <button id="mom" class="btn-primary">Comprar</button>
+        </div>
+
+        <div class="tarjeta">
+          <img src="imagenes/CamperaGabardina.jpg" alt="FotoJean">
+          <h2>Campera de gabardina</h2>
+          <p>$30.000</p>
+          <button id="CamperaGabardina" class="btn-primary">Comprar</button>
+      </div>
+
+      <div class="tarjeta">
+        <img src="imagenes/Camperacuero.jpg" alt="FotoJean">
+        <h2>Campera de cuero</h2>
+        <p>$35.000</p>
+        <button id="CamperaCuero" class="btn-primary">Comprar</button>
+    </div>
+
+        </div>
+        <section class="SectionLista">
+          <h2>Productos comprados:</h2>
+      <ul class="lista">
+  
+      </ul>
+      <p>Total a pagar:  $<span class="montototal">0</span></p>
+      <button type="submit" class="btn-primary" id="ConfirmarCompra">Confirmar compra</button>
+  
+  
+      </section>
+
+        <script src="main.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="libreria.js"></script>
+</body>
+</html>

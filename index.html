@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap5</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <ul class="nav nav-pills bg-black p-3">
+        <li class="nav-item text-center">
+          <a class="nav-link" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="productos.html" role="button" aria-expanded="false">productos</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Trajes.html">Todos los productos</a></li>
+            <li><a class="dropdown-item" href="productos.html">Jeans</a></li>
+            <li><a class="dropdown-item" href="Camperas.html">Camperas</a></li>
+            <li><hr class="dropdown-divider"></li>
+
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="prueba.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Carrito.html">Carrito de compras</a>
+        </li>
+      </ul>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/pexels-pixabay-325876 (1).jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/pexels-terje-sollie-298863.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/pexels-david-bartus-297933.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="text-center pt-3 bg-black">
+        <h1 class="p-4 border-top border-3">TUKi</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
+             Nemo eaque aliquid, aut corporis sequi molestias soluta nostrum<br>
+              rerum omnis optio rem harum id in quo, excepturi repudiandae ut nihil itaque?<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus pariatur nesciunt <br>
+            corrupti adipisci quas suscipit id ut quia illum. Impedit iste cupiditate maiores<br>
+             necessitatibus nemo incidunt error excepturi, nostrum placeat!<br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit vero fuga omnis incidunt <br>
+             quae minima recusandae, ducimus tempora consequatur laboriosam quo commodi architecto <br>
+              reiciendis. Labore autem non rerum modi sapiente?<br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius consectetur dolore at ad doloribus <br>
+             est aliquam ea deleniti exercitationem assumenda quos maxime, nemo amet repellendus qui unde! Aut, quia <br>
+              pariatur.</p>
+      </section>
+      <section>
+      <form action="">
+          <fieldset>
+              <legend>
+                  Formulario
+              </legend>
+              <label for="Nombre">Nombre</label>
+              <input type="text" name="Nombre" id="Nombre"> <br> <br>
+              <label for="Apellido">Apellido</label>
+              <input type="text" name="Apellido" id="Apellido"> <br> <br>
+              <label for="Telefono">Telefono</label>
+              <input type="text" name="Telefono" id="Telefono"><br> <br>
+              <label for="Correo">Correo Electronico</label>
+              <input type="text" name="Correo" id="Correo"> <br> <br>
+              <textarea name="Asunto" id="Comentario" cols="30" rows="10">Enviar comentario..</textarea> <br>
+              <button type="submit">Enviar</button>
+          </fieldset>
+      </form>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="libreria.js"></script>
+
+    
+</body>
+</html>
